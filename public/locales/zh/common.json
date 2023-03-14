@@ -1,0 +1,12 @@
+{
+  "componentGenerator": "文章生成",
+  "component": "文章",
+  "askForAny": "询问我任何领域的主题",
+  "aiWillGenerateItForYou": "AI帮助您生成文章",
+  "whichComponent": "描述你需要哪一篇文章",
+  "whichPL": "选择你的文章格式！",
+  "cta": "Make my day",
+  "starOnGithub": "Star on GitHub ❤️",
+  "exampleInput": "例如 人工智能未来发展趋势",
+  "contact": "Contact us"
+}

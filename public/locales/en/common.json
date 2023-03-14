@@ -1,12 +1,13 @@
 {
-  "componentGenerator": "component generator",
-  "component": "component",
-  "askForAny": "Ask for any",
-  "aiWillGenerateItForYou": "AI will generate it for you",
-  "whichComponent": "Describe which component you need",
-  "whichPL": "Choose how to export your component (this will take a few moments, but worth waiting!!!)",
+  "componentGenerator": "article generator",
+  "component": "article",
+  "askForAny": "Ask me about topics in any field",
+  "aiWillGenerateItForYou": "AI helps you generate articles",
+  "whichComponent": "Describe which article you need",
+  "whichPL": "Choose your article format！",
   "cta": "Make my day",
   "starOnGithub": "Star on GitHub ❤️",
-  "exampleInput": "e.g. an about us section with 3 columns of team members, centered text, rounded profile images",
+  "exampleInput": "For example, the future development trend of AI",
   "contact": "Contact us"
 }
+

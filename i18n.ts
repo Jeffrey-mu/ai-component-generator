@@ -4,7 +4,7 @@ import path from 'path';
 
 // @ts-ignore
 export default i18n({
-    locales: ['en', 'es'],
+    locales: ['en', 'zh'],
     defaultLocale: 'en',
     localePath: path.resolve('./public/locales'),
     interpolation: {

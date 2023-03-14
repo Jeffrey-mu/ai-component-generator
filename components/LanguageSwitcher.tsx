@@ -5,8 +5,8 @@ import Image from 'next/image';
 const LanguageSwitcher = () => {
     const router = useRouter();
     const { t } = useTranslation('en');
-    const flagSrc = router.locale === 'en' ? '/images/us.png' : '/images/spain.png';
-    const flagAlt = router.locale === 'en' ? t('english') : t('spanish');
+    const flagSrc = router.locale === 'en' ? '/images/us.png' : '/images/zh.png';
+    const flagAlt = router.locale === 'en' ? t('english') : t('zh');
 
     const changeLanguage = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const locale = event.target.value;
@@ -21,7 +21,7 @@ const LanguageSwitcher = () => {
                 className="appearance-none bg-transparent border-none outline-none shadow-none focus-none pl-10 focus:outline-none "
             >
                 <option value="en">{t('EN')}</option>
-                <option value="es">{t('SP')}</option>
+                <option value="zh">{t('中文')}</option>
             </select>
             <div className="absolute inset-y-0 left-0 flex items-center pl-2">
                 <Image src={flagSrc} alt={flagAlt} width={20} height={20} />

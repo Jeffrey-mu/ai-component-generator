@@ -7,7 +7,7 @@ module.exports = {
         return [
             // Rewrite the URL /en or /es to /?lng=en or /?lng=es
             {
-                source: '/:locale(en|es)',
+                source: '/:locale(en|zh)',
                 destination: '/?lng=$1',
             },
         ];
